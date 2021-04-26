@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Inscription</servlet-name>
+  	<display-name>Inscription</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Inscription</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Authentification</servlet-name>
+  	<display-name>Authentification</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Authentification</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Traitement</servlet-name>
+  	<display-name>Traitement</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Traitement</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Choix</servlet-name>
+  	<display-name>Choix</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Choix</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PageAccueil</servlet-name>
+  	<display-name>PageAccueil</display-name>
+  	<description></description>
+  	<servlet-class>Controller.PageAccueil</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Articles</servlet-name>
+  	<display-name>Articles</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Articles</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Panier</servlet-name>
+  	<display-name>Panier</display-name>
+  	<description></description>
+  	<servlet-class>Controller.Panier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Inscription</servlet-name>
+  	<url-pattern>/Inscription</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Authentification</servlet-name>
+  	<url-pattern>/Authentification</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Traitement</servlet-name>
+  	<url-pattern>/Traitement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Choix</servlet-name>
+  	<url-pattern>/Choix</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PageAccueil</servlet-name>
+  	<url-pattern>/PageAccueil</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Articles</servlet-name>
+  	<url-pattern>/Articles</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Panier</servlet-name>
+  	<url-pattern>/Panier</url-pattern>
+  </servlet-mapping>
+</web-app>

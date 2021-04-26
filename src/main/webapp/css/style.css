@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+body{
+	
+  background-color:blanc; 
+  background-size: cover;
+}
+
+.h1_style{
+	
+			margin-left: 350px;
+			margin-top: 80px;
+			color: white;
+}
+.div1{
+			margin-left:500px;
+			margin-top: 80px;
+			color: white;
+}
+.col{
+	
+	color: white;
+	margin-left:100px;
+	font-size: 25px;
+}
+.styleform{
+        	border-radius: 15px;
+		    padding:40px;
+			width: 430px;
+			height: 200px;
+	        color: black;
+			margin-left: 300px;
+			margin-top: 80px;
+			background-color: white;
+			opacity: 0.8;
+}
+
+tr{
+	margin-top:40px;
+}
+input{
+	width: 300px;
+	border-radius: 15px;
+	margin-left: 30px;
+	
+}
+hr{
+	color:white;
+}
+
